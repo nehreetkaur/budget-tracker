@@ -19,7 +19,7 @@ self.addEventListener("install", function (evt) {
   
   console.log("install");
 
-  // pre cache image data
+  // pre cache transaction data
   const cacheImageData = async () => {
     const cache = await caches.open(DATA_CACHE_NAME);
     return cache.add("/api/transaction");
