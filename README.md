@@ -1,63 +1,95 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
-
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
-
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
-
-Offline Functionality:
-
-  * Enter deposits offline
-
-  * Enter expenses offline
-
-When brought back online:
-
-  * Offline entries should be added to tracker.
-
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
-
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+# ABOUT 
+In this **application** **BUDGET_TRACKER**, user can enter the transaction and afterwords can edit the transaction by adding it the total or deducting it from the total amount of transaction. Have to create  **MANIFEST.WEBMANIFAST** file and also **SERVICE-WORKER.JS** file .In this **application** , worked with **MONGODB**,made **collection**,**DB-NAME**,**PASSWORD** setting on **MONGODB-ATLAS** means user have to login in MONGODB ATLAS to work with .and created the folder and file structure in **MVC** which stands for**MODEL VIEW CONTROLLER**  and also deployed our application on **HEROKU**.User can see all the **collections** and entered **exercises** in **ROBO 3T**.
 
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+# TABLE OF CONTENTS
+[ DESCRIPTION](#DESCRIPTION)
 
-- - -
+[INSTALLATION](#INSTALLATION)
 
-## Commit Early and Often
+[TEXT-EDITOR](#TEXT-EDITOR)
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+[PROGRAMMING-LANGUAGE](#PROGRAMMING-LANGUAGE)
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+[RESOURCES-REFERRED](#RESOURCES-REFERRED)
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+[SCREENSHOT](#SCREENSHOT)
 
-* Follow these guidelines for committing:
+[GIT_HUB-REPOSITORY](#GIT_HUB-REPOSITORY)
 
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+[ HEROKU-LINK](#HEROKU-LINK) 
 
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
 
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
 
-  * Test your application before you commit to ensure functionality at every step in the development process
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
 
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
 
-## Submission on BCS
 
-* You are required to submit the following:
 
-  * the URL to the deployed application
 
-  * the URL to the Github repository
+
+# DESCRIPTION
+
+In this application , user will see the **BUDGET-TRACKER APP** by running
+**node server.js** command on the terminal and listening to the port.
+After,  connecting to the database, user will open the application in the browser
+via **local host and the mentioned Port Number**. User will easily add the **name** of transaction and then add/deduct transaction cost from the total cost entered by the user. Graphical representation is also shown for the user. In this, user can enter the transaction name and cost even if it is offline which goes **indexed-db** and shown as pending and when user is back online and then it will be posted in the database. So, basically user can easily maintain it's budget even when offline.Also, created **Manifest.webmanifest** file and entered our file discription and our **icons** too and also created **service-worker.js** file . Both files links included in index.html file.Also, user can enter the files to **cache** in service-worker.js. **IT'S VERY IMPORTANT TO CLEAR DATA** for better working of application.
+
+# INSTALLATION
+
+**npm install MONGODB**
+
+**npm install ROBO 3T**
+
+
+
+
+
+
+## TEXT-EDITOR
+**Vs-code**
+
+## PROGRAMMING-LANGUAGE
+
+CSS
+
+JAVASCRIPT
+
+HTML 
+
+# RESOURCES-REFERRED
+[MONGO-REFERENCE-addFIELDS](https://docs.mongodb.com/manual/reference/operator/aggregation/addFields/#pipe._S_addFields)
+
+[MVC](https://www.tutorialspoint.com/mvc_framework/mvc_framework_introduction.htm)
+
+[MONGO-HOW-TO-LIMIT](https://stackoverflow.com/questions/5830513/how-do-i-limit-the-number-of-returned-items)
+
+
+# SCREENSHOT
+![SCREEN-SHOT1](public/images/bud1.png)
+
+## Screenshot below shows the created **ICONS**
+
+![SCREEN-SHOT2](public/images/bud2.png)
+
+
+## Screenshot below shows the **CACHE-FILES**
+
+![SCREEN-SHOT3](public/images/bud3.png)
+
+
+## Screenshot below shows the transaction entered when network OFFLINE.
+
+![SCREEN-SHOT4](public/images/pending.png)
+
+
+## Screenshot below shows the transaction entered in database when back ONLINE.
+![SCREEN-SHOT4](public/images/enter.png)
+
+
+# GIT_HUB-REPOSITORY
+[GIT-HUB](https://github.com/nehreetkaur/budget-tracker)
+
+# HEROKU-LINK
+[HEROKU-LINK](https://budget-nehreet.herokuapp.com/)
 
