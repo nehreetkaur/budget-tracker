@@ -58,6 +58,10 @@ JAVASCRIPT
 HTML 
 
 # RESOURCES-REFERRED
+[MANIFEST-FILE](https://web.dev/add-manifest/)
+
+[SERVICE-WORKER](https://developers.google.com/web/fundamentals/primers/service-workers)
+
 [MONGO-REFERENCE-addFIELDS](https://docs.mongodb.com/manual/reference/operator/aggregation/addFields/#pipe._S_addFields)
 
 [MVC](https://www.tutorialspoint.com/mvc_framework/mvc_framework_introduction.htm)
