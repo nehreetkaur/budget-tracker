@@ -62,11 +62,9 @@ HTML
 
 [SERVICE-WORKER](https://developers.google.com/web/fundamentals/primers/service-workers)
 
-[MONGO-REFERENCE-addFIELDS](https://docs.mongodb.com/manual/reference/operator/aggregation/addFields/#pipe._S_addFields)
+
 
 [MVC](https://www.tutorialspoint.com/mvc_framework/mvc_framework_introduction.htm)
-
-[MONGO-HOW-TO-LIMIT](https://stackoverflow.com/questions/5830513/how-do-i-limit-the-number-of-returned-items)
 
 
 # SCREENSHOT
